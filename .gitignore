@@ -5,4 +5,11 @@ cleaner.ipynb
 Helper Code.ipynb
 BitCoin Content Extractor.ipynb
 EDA - Test.ipynb
-data-processing/
+data/data.json
+data/personal.json
+data/time_series_60min_singleindex.csv
+data/time_series_60min_singleindex_2019.csv
+data/weather_data_GER_2016.csv
+data/weather_data_GER_2019.csv
+data/weather_data_filtered_2016.csv
+data/weather_data_open_system_2019.csv
