@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+figs/
+cleaner.ipynb
+Helper Code.ipynb
+BitCoin Content Extractor.ipynb
+EDA - Test.ipynb
+data-processing/
