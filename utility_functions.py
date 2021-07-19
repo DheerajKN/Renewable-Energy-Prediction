@@ -4,11 +4,12 @@ import numpy as np
 
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-def import_or_install(package):
+def import_or_install(package, packageDownload=''):
+    packageDownload = packageDownload if packageDownload != '' else package
     try:
         __import__(package)
     except ImportError:
-        pip.main(['install', package])
+        pip.main(['install', packageDownload])
         __import__(package)
 
 def metrics(model_name, actual, predictions):
